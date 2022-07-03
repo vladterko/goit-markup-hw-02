@@ -194,5 +194,28 @@ body {
 
 /** =====  Portfolio page  =====  
 ======================================== */
-/** =====  Comment  =====  
+/** =====  Portfolio section  =====  
 ======================================== */
+.radio-btn {
+    font-weight: 500;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+}
+
+.radio-btn:hover,
+.radio-btn:focus {
+    color: var(--light-txt-clr);
+    background-color: var(--accent-clr);
+}
+
+.project-title {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.project-desc {
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--secondary-txt-clr);
+}
