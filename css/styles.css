@@ -28,3 +28,89 @@
     text-decoration: none;
     color: currentColor;
 }
+
+/** =====  Common styles  =====  
+======================================== */
+body {
+    font-family: var(--main-font);
+    color: var(--main-txt-clr);
+    background-color: var(--main-bg-clr);
+}
+
+.current-page {
+    color: var(--accent-clr);
+}
+
+.logo-link {
+    font-family: var(--socondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-clr);
+}
+
+/** =====  Header section  =====  
+======================================== */
+.logo-link .logo-dark {
+    color: var(--dark-txt-clr);
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--accent-clr);
+}
+
+.contact-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondary-txt-clr);
+}
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--accent-clr);
+}
+
+
+
+/** =====  Footer section  =====  
+======================================== */
+.footer-section {
+    background-color: var(--dark-bg-clr);
+}
+
+.logo-link .logo-light {
+    color: var(--light-txt-clr);
+}
+
+.footer-addr {
+    font-style: normal;
+}
+
+.addr {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--light-txt-clr);
+}
+
+.addr-link {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--trans-txt-clr);
+}
+
+.addr-link:hover,
+.addr-link:focus {
+    color: var(--light-txt-clr);
+}
