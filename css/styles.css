@@ -41,6 +41,16 @@ body {
     color: var(--accent-clr);
 }
 
+.btn {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+
 .logo-link {
     font-family: var(--socondary-font);
     font-weight: 700;
