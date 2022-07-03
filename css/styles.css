@@ -17,3 +17,14 @@
     --sec-bg-clr: #F5F4FA;
     --dark-bg-clr: #2F303A;
 }
+
+/** =====  Reset styles  =====  
+======================================== */
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    color: currentColor;
+}
